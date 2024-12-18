@@ -1,0 +1,74 @@
+<ion-buttons slot="start" class="back-btn">
+  <ion-back-button defaultHref="/"></ion-back-button>
+</ion-buttons>
+
+<ion-content [fullscreen]="true" class="main-container">
+  <div class="globe">Create</div>
+
+  <div class="icon-sec">
+    <div class="main-text-box">
+      <ion-icon name="location-sharp" class="icon-color" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="person-sharp" color="danger" class="icon-color" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="checkmark-sharp" class="icon-color" size="large"></ion-icon>
+    </div>
+  </div>
+
+  <div class="lets">Your details</div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input color="danger" [(ngModel)]="user.name" name="name" class="custom-input" placeholder="Name" required
+        [ngClass]="{'ng-invalid': submitted && !user.name, 'ng-valid': submitted && user.name}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input [(ngModel)]="user.addressLine1" name="addressLine1" class="custom-input" placeholder="Address line 1"
+        required
+        [ngClass]="{'ng-invalid': submitted && !user.addressLine1, 'ng-valid': submitted && user.addressLine1}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input [(ngModel)]="user.addressLine2" name="addressLine2" class="custom-input" placeholder="Address line 2"
+        [ngClass]="{'ng-invalid': submitted && !user.addressLine2, 'ng-valid': submitted && user.addressLine2}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input [(ngModel)]="user.country" name="country" class="custom-input" placeholder="Country" required
+        [ngClass]="{'ng-invalid': submitted && !user.country, 'ng-valid': submitted && user.country}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input type="number" [(ngModel)]="user.zipCode" name="zipCode" class="custom-input" placeholder="Zip Code" required
+        [ngClass]="{'ng-invalid': submitted && !user.zipCode, 'ng-valid': submitted && user.zipCode}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input type="number" [(ngModel)]="user.phoneNumber" name="phoneNumber" class="custom-input" placeholder="Phone number"
+        required [ngClass]="{'ng-invalid': submitted && !user.phoneNumber, 'ng-valid': submitted && user.phoneNumber}">
+      </ion-input>
+    </div>
+  </div>
+
+  <div class="button-section">
+    <div class="buttons">
+      <ion-button expand="block" class="rounded-btn" (click)="formSubmit()">Continue</ion-button>
+    </div>
+  </div>
+</ion-content>

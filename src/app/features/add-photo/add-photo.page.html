@@ -1,0 +1,34 @@
+<ion-buttons slot="start" class="back-btn">
+  <ion-back-button defaultHref="/"></ion-back-button>
+</ion-buttons>
+
+<ion-content [fullscreen]="true" class="main-container">
+  <div class="globe">Create</div>
+
+  <div class="icon-sec">
+    <div class="main-text-box">
+      <ion-icon name="location-sharp" class="icon-color" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="person-sharp" color="danger" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="checkmark-sharp" class="icon-color" size="large"></ion-icon>
+    </div>
+  </div>
+
+  <div class="lets">Your details</div>
+
+  <div class="sec-text-box" (click)="addPhotoToGallery()">
+    <div class="sec-text">
+      <ion-icon [name]="isSaved ? 'checkmark-sharp' : 'camera-sharp'" [class.img-icon]="!isSaved"
+        [class.saved-icon]="isSaved"></ion-icon>
+      <p>{{ isSaved ? 'Profile photo added' : 'Add photo' }}</p>
+    </div>
+  </div>
+
+
+  <div class="button-section">
+    <div class="buttons">
+      <ion-button expand="block" class="rounded-btn" (click)="verify()" [disabled]="!isSaved">Continue</ion-button>
+    </div>
+  </div>
+</ion-content>

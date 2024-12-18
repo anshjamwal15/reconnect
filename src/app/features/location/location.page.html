@@ -1,0 +1,41 @@
+<ion-buttons slot="start" class="back-btn">
+  <ion-back-button defaultHref="/"></ion-back-button>
+</ion-buttons>
+
+<ion-content [fullscreen]="true" class="main-container">
+  <div class="globe">Create</div>
+
+  <div class="icon-sec">
+    <div class="main-text-box">
+      <ion-icon name="location-sharp" color="danger" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="person-sharp" class="icon-color" size="large"></ion-icon>
+      <hr>
+      <ion-icon name="checkmark-sharp" class="icon-color" size="large"></ion-icon>
+    </div>
+  </div>
+
+  <div class="lets">Let's get started...</div>
+
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <p>{{ displayName || 'Please enable location access to share your real-time location during collection' }}</p>
+    </div>
+  </div>
+
+
+  <div class="button-section">
+    <div class="buttons">
+      <ion-button *ngIf="displayName === ''" (click)="fetchLocation()" expand="block" class="rounded-btn">Allow location
+        services</ion-button>
+      <ion-button *ngIf="displayName !== ''" (click)="continue()" expand="block"
+        class="rounded-btn">Continue</ion-button>
+      <ion-loading message="Loading..." spinner="circles"></ion-loading>
+    </div>
+  </div>
+
+  <div class="img-section">
+    <img class="img-sec" src="assets/start_screen.png" />
+  </div>
+</ion-content>

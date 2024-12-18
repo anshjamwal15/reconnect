@@ -1,0 +1,96 @@
+$text-color: #077575;
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.globe {
+    color: $text-color;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+ion-back-button.no-border {
+    --background: none;
+    --border-width: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --color: var(--ion-color-primary);
+}
+
+.main-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-weight: bold;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #707070;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.buttons {
+    margin: 10px 0;
+    width: 80%;
+    height: auto;
+}
+
+.rounded-btn {
+    --border-radius: 25px;
+    font-size: 1.2rem;
+    --background: #077575;
+    text-transform: none;
+}
+
+.back {
+    color: $text-color;
+    font-size: 1.5rem;
+    padding: 5%;
+    font-weight: 500;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.img-sec {
+    margin-left: 50px;
+}
+
+
+@media (min-width: 768px) {
+    .globe {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .globe {
+        font-size: 4rem;
+    }
+}

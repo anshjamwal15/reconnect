@@ -1,0 +1,147 @@
+$text-color: #077575;
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.globe {
+    color: #707070;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.back-btn {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.lets {
+    color: $text-color;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.sec-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #077575;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: auto;
+}
+
+.sec-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    font-weight: 500;
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-icon {
+    font-size: 50px;
+    color: #077575;
+    padding: 5px;
+}
+
+.saved-icon {
+    font-size: 50px;
+    color: green;
+    padding: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted #077575;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 40%;
+}
+
+.icon-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text-box {
+    display: flex;
+    width: 80%;
+}
+
+.icon-color {
+    color: #077575;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    margin: 10px 0;
+    width: 80%;
+    height: auto;
+}
+
+.rounded-btn {
+    --border-radius: 25px;
+    font-size: 1.2rem;
+    --background: #077575;
+    text-transform: none;
+}
+
+.back {
+    color: $text-color;
+    font-size: 1.5rem;
+    padding: 5%;
+    font-weight: 500;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-sec {
+    margin-left: 50px;
+}
+
+
+@media (min-width: 768px) {
+    .globe {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .globe {
+        font-size: 4rem;
+    }
+}

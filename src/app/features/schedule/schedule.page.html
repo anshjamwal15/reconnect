@@ -1,0 +1,37 @@
+<ion-buttons slot="start" class="back-btn">
+  <ion-back-button defaultHref="/"></ion-back-button>
+</ion-buttons>
+
+<ion-content [fullscreen]="true" class="main-container">
+  <div class="globe">Create</div>
+
+  <div class="lets">
+    <div class="lets-text">
+      Provide details
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input class="custom-input" placeholder="Name" [(ngModel)]="profile.name"></ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-input class="custom-input" placeholder="Instructions" [(ngModel)]="profile.instructions"></ion-input>
+    </div>
+  </div>
+
+  <div class="sec-text-box">
+    <div class="sec-text">
+      <ion-datetime [(ngModel)]="profile.datetime" class="ion-light"></ion-datetime>
+    </div>
+  </div>
+
+  <div class="button-section">
+    <div class="buttons">
+      <ion-button expand="block" class="rounded-btn" (click)="saveProfile()">Submit</ion-button>
+    </div>
+  </div>
+</ion-content>

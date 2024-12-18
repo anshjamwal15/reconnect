@@ -1,0 +1,169 @@
+$text-color: #077575;
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.globe {
+    color: #707070;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.back-btn {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.lets {
+    color: $text-color;
+    font-size: 2rem;
+    padding-top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lets-text {
+    width: 50%;
+}
+
+.sec-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    height: 50;
+}
+
+.sec-text {
+    text-align: start;
+    width: 80%;
+}
+
+.sec-text-box .sec-text .custom-input {
+    border-radius: 20px;
+    border: 1.5px solid #077575;
+    transition: none;
+    font-weight: 300;
+    font-size: 14px;
+    --highlight-color-focused: rgba(255, 255, 255, 0);
+    --highlight-color-invalid: rgba(255, 255, 255, 0);
+    --highlight-color-valid: rgba(255, 255, 255, 0);
+}
+
+.sec-text-box .sec-text .custom-input::placeholder {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.sec-text-box .sec-text .custom-input {
+    --padding-start: 10px;
+    --padding-end: 10px;
+}
+
+
+
+hr {
+    border: none;
+    border-top: 2px dotted #077575;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 40%;
+}
+
+.icon-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text-box {
+    display: flex;
+    width: 80%;
+}
+
+.icon-color {
+    color: #077575;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.buttons {
+    margin: 10px 0;
+    width: 80%;
+    height: auto;
+}
+
+.rounded-btn {
+    --border-radius: 25px;
+    font-size: 1.2rem;
+    --background: #077575;
+    text-transform: none;
+}
+
+.back {
+    color: $text-color;
+    font-size: 1.5rem;
+    padding: 5%;
+    font-weight: 500;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.img-sec {
+    margin-left: 50px;
+}
+
+ion-datetime {
+    --background: #ffffff;
+    --ion-text-color: #000000;
+    --wheel-fade-background-rgb: 255, 255, 255;
+    --wheel-highlight-background: #ffffff;
+    --wheel-highlight-border-radius: 8px;
+}
+
+ion-datetime::part(wheel-item) {
+    background-color: transparent !important;
+}
+
+ion-datetime::part(wheel-item-active) {
+    background-color: #e0e0e0 !important;
+}
+
+
+@media (min-width: 768px) {
+    .globe {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .globe {
+        font-size: 4rem;
+    }
+}
