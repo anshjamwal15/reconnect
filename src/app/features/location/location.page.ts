@@ -14,10 +14,10 @@ export class LocationPage {
   location: { latitude: number; longitude: number } | null = null;
   displayName: string = "";
 
-  constructor(private loadingController: LoadingController, private router: Router, private alertController: AlertController) { }
+  constructor(private waitingController: LoadingController, private router: Router, private alertController: AlertController) { }
 
   async fetchLocation() {
-    const loading = await this.loadingController.create({
+    const loading = await this.waitingController.create({
       message: 'Loading...',
       spinner: 'circles',
       duration: 3000
@@ -64,7 +64,7 @@ export class LocationPage {
         {
           text: 'Retry',
           handler: () => {
-            this.fetchLocation(); // Retry fetching location
+            this.fetchLocation();
           },
         },
         {

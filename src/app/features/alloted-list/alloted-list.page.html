@@ -5,13 +5,13 @@
 <ion-content [fullscreen]="true" class="main-container">
   <div class="globe">Pickup List</div>
 
-  <div class="listbox">
+  <div class="recordbox">
     <ion-list>
-      <ion-item *ngFor="let item of items">
+      <ion-item *ngFor="let i of items">
         <ion-label class="list-box">
-          <h2>{{ item.name }}</h2>
-          <p class="ints">{{ item.instruction }}</p>
-          <p class="date-text">{{ item.date | date:'short' }}</p>
+          <h2>{{ i.name }}</h2>
+          <p class="ints">{{ i.instruction }}</p>
+          <p class="date-text">{{ i.date | date:'short' }}</p>
         </ion-label>
       </ion-item>
     </ion-list>

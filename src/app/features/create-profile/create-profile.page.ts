@@ -20,14 +20,14 @@ export class CreateProfilePage {
 
   submitted: boolean = false;
 
-  constructor(private router: Router, private alertController: AlertController) { }
+  constructor(private router: Router, private warningController: AlertController) { }
 
   formSubmit() {
     this.submitted = true;
-     if (!/^\d{10}$/.test(this.user.phoneNumber)) {
+    const isPhone = /^\d{10}$/.test(this.user.phoneNumber);
+     if (!isPhone) {
       this.showAlert("Invalid phone", "Please add 10 digit number")
-    } else if (this.user.name && this.user.addressLine1 && this.user.country && this.user.zipCode && this.user.phoneNumber) {
-      console.log('Form submitted successfully:', this.user);
+    } else if (this.user.name && this.user.phoneNumber) {
       this.router.navigate(['/add-photo'])
     } else {
       console.log('Form contains errors.');
@@ -35,7 +35,7 @@ export class CreateProfilePage {
   }
 
   async showAlert(header: string, message: string) {
-    const alert = await this.alertController.create({
+    const alert = await this.warningController.create({
       header,
       message,
       buttons: [

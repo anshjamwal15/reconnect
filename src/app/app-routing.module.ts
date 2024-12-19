@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'alloted-list',
     loadChildren: () => import('./features/alloted-list/alloted-list.module').then( m => m.AllotedListPageModule)
   },
+  {
+    path: 'thank-you-two',
+    loadChildren: () => import('./features/thank-you-two/thank-you-two.module').then( m => m.ThankYouTwoPageModule)
+  },
 ];
 
 @NgModule({

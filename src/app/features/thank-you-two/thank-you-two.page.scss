@@ -1,6 +1,6 @@
 $text-color: #077575;
 
-.top-box {
+.main-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,31 +8,33 @@ $text-color: #077575;
 }
 
 .globe {
-    font-size: 2.5rem;
-    padding-bottom: 10%;
-    color: $text-color;
+    color: #707070;
+    font-size: 1.5rem;
+    text-align: center;
     padding-top: 10%;
+    padding-bottom: 10%;
     font-family: 'Inter';
     font-style: normal;
-    text-align: center;
     font-weight: bold;
 }
 
-ion-back-button.no-border {
-    --background: none;
-    --border-width: 0;
-    --padding-start: 0;
-    --padding-end: 0;
-    --color: var(--ion-color-primary);
+.lets {
+    color: $text-color;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
 }
 
-.main-text-box {
+.sec-text-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.upper {
+.sec-text {
     font-weight: bold;
     width: 60%;
     font-size: 1.5rem;
@@ -40,19 +42,38 @@ ion-back-button.no-border {
     color: #707070;
 }
 
-.btns-sec {
+
+hr {
+    border: none;
+    border-top: 2px dotted #077575;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 40%;
+}
+
+.icon-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text-box {
+    display: flex;
+    width: 80%;
+}
+
+.icon-color {
+    color: #077575;
+}
+
+.button-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding-top: 10%;
-}
-
-.btns {
-    margin: 10px 0;
-    width: 80%;
-    height: auto;
 }
 
 .buttons {
@@ -81,7 +102,7 @@ ion-back-button.no-border {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .img-sec {

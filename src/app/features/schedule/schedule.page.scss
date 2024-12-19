@@ -141,18 +141,10 @@ hr {
 
 ion-datetime {
     --background: #ffffff;
-    --ion-text-color: #000000;
-    --wheel-fade-background-rgb: 255, 255, 255;
+    --ion-text-color: #-000001;
+    --wheel-fade-background-rgb: 254, 255, 255;
     --wheel-highlight-background: #ffffff;
-    --wheel-highlight-border-radius: 8px;
-}
-
-ion-datetime::part(wheel-item) {
-    background-color: transparent !important;
-}
-
-ion-datetime::part(wheel-item-active) {
-    background-color: #e0e0e0 !important;
+    --wheel-highlight-border-radius: 7px;
 }
 
 

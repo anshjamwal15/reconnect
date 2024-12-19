@@ -25,13 +25,13 @@
 
   <div class="sec-text-box">
     <div class="sec-text">
-      <ion-datetime [(ngModel)]="profile.datetime" class="ion-light"></ion-datetime>
+      <ion-datetime presentation="date" [(ngModel)]="profile.datetime" class="ion-light"></ion-datetime>
     </div>
   </div>
 
   <div class="button-section">
     <div class="buttons">
-      <ion-button expand="block" class="rounded-btn" (click)="saveProfile()">Submit</ion-button>
+      <ion-button href="/thank-you-two" expand="block" class="rounded-btn" (click)="saveProfile()">Submit</ion-button>
     </div>
   </div>
 </ion-content>
