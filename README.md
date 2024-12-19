@@ -73,7 +73,7 @@ This modular structure ensures scalability, readability, and ease of debugging d
 Here are some visuals showcasing the app's features:
 
 1. **Home and Navigation**:
-   add screenshot
+   ![alt text](http://url/to/img.png](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/1.jpeg)
 
 2. **Location Access**:
   
