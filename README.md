@@ -106,7 +106,7 @@ Here are some visuals showcasing the app's features:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/anshjamwal15/reconnect.git
-   cd reconnect-main
+   cd reconnect
    ```
 
 2. **Install Dependencies**:
@@ -124,7 +124,7 @@ Here are some visuals showcasing the app's features:
      ```bash
      npx cap add android
      npx cap add ios
-     npx cap copy
+     npx cap sync
      ```
 
 ---
