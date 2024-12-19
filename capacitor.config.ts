@@ -14,7 +14,7 @@ const config: CapacitorConfig = {
     launchShowDuration: 3000,
     launchAutoHide: true,
     backgroundColor: "#077575",
-    androidScaleType: "CENTER_CROP",
+    androidScaleType: "CENTER",
     showSpinner: true,
     androidSpinnerStyle: "large",
     spinnerColor: "#999999"
