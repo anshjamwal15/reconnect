@@ -77,19 +77,27 @@ Here are some visuals showcasing the app's features:
    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/1.jpeg?raw=true)
 
 3. **Location Access**:
+
+  ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/2.jpeg?raw=true)
   
 
 4. **Pickup Details**:
+
+   ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/8.jpeg?raw=true)
   
 
-5. **Volunteer Details**:
+6. **Volunteer Details**:
+
+  ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/5.jpeg?raw=true)
 
 
-6. **List Details**:
-   
+8. **List Details**:
 
-7. **Thank You**:
-   
+   ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/7.jpeg?raw=true)
+
+9. **Thank You**:
+
+   ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/6.jpeg?raw=true)
 
 ---
 
