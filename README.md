@@ -73,21 +73,22 @@ This modular structure ensures scalability, readability, and ease of debugging d
 Here are some visuals showcasing the app's features:
 
 1. **Home and Navigation**:
+   
    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/1.jpeg?raw=true)
 
-2. **Location Access**:
+3. **Location Access**:
   
 
-3. **Pickup Details**:
+4. **Pickup Details**:
   
 
-4. **Volunteer Details**:
+5. **Volunteer Details**:
 
 
-5. **List Details**:
+6. **List Details**:
    
 
-6. **Thank You**:
+7. **Thank You**:
    
 
 ---
