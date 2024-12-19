@@ -77,7 +77,7 @@ export class LocationPage {
   }
   continue() {
     if (this.displayName !== "") {
-      this.router.navigate(["/create-profile"])
+      this.router.navigate(["/schedule"])
     }
   }
 

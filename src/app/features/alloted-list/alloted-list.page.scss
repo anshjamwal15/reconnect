@@ -39,6 +39,14 @@
     font-size: 0.9rem;
 }
 
+.empty-state {
+    color: #696868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50%;
+}
+
 @media (min-width: 768px) {
     .globe {
         font-size: 3rem;

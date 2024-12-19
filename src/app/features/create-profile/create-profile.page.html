@@ -3,7 +3,7 @@
 </ion-buttons>
 
 <ion-content [fullscreen]="true" class="main-container">
-  <div class="globe">Create</div>
+  <div class="globe">Please provide details</div>
 
   <div class="icon-sec">
     <div class="main-text-box">
@@ -52,7 +52,7 @@
 
   <div class="sec-text-box">
     <div class="sec-text">
-      <ion-input type="number" [(ngModel)]="user.zipCode" name="zipCode" class="custom-input" placeholder="Zip Code" required
+      <ion-input [(ngModel)]="user.zipCode" name="zipCode" class="custom-input" placeholder="Zip Code" required
         [ngClass]="{'ng-invalid': submitted && !user.zipCode, 'ng-valid': submitted && user.zipCode}">
       </ion-input>
     </div>

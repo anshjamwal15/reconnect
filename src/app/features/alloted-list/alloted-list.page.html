@@ -6,7 +6,12 @@
   <div class="globe">Pickup List</div>
 
   <div class="recordbox">
-    <ion-list>
+    <div *ngIf="items.length === 0" class="empty-state">
+      No pickups available
+    </div>
+
+    <!-- Show the list if items exist -->
+    <ion-list *ngIf="items.length > 0">
       <ion-item *ngFor="let i of items">
         <ion-label class="list-box">
           <h2>{{ i.name }}</h2>

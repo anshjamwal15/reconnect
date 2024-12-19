@@ -24,10 +24,7 @@ export class CreateProfilePage {
 
   formSubmit() {
     this.submitted = true;
-    const isPhone = /^\d{10}$/.test(this.user.phoneNumber);
-     if (!isPhone) {
-      this.showAlert("Invalid phone", "Please add 10 digit number")
-    } else if (this.user.name && this.user.phoneNumber) {
+    if (this.user.name && this.user.phoneNumber) {
       this.router.navigate(['/add-photo'])
     } else {
       console.log('Form contains errors.');
