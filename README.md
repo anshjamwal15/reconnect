@@ -105,7 +105,7 @@ Here are some visuals showcasing the app's features:
 
 1. **Clone the Repository**:
    ```bash
-   git clone [<repository_url>](https://github.com/anshjamwal15/reconnect.git)
+   git clone https://github.com/anshjamwal15/reconnect.git
    cd reconnect-main
    ```
 
