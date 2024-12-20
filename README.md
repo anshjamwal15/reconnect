@@ -130,6 +130,7 @@ Here are some visuals showcasing the app's features:
 5. **Debug on Device/Emulator**:
      ```bash
      npx cap run --target=<YOUR_DEVICE_ID> android -l --external
+     npx cap run android --list # use this command to check available device
      ```
 
 ---
