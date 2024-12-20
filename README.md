@@ -127,6 +127,11 @@ Here are some visuals showcasing the app's features:
      npx cap sync
      ```
 
+5. **Debug on Device/Emulator**:
+     ```bash
+     npx cap run --target=<YOUR_DEVICE_ID> android -l --external
+     ```
+
 ---
 
 ## Usage

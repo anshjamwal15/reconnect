@@ -7,8 +7,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "sync": "ionic cap sync --target=1b7c34bc android",
-    "dev": "npm run sync && ionic cap run --target=1b7c34bc android -l --external",
+    "sync": "ionic cap sync --target=ZA222K834Y android",
+    "dev": "npm run sync && ionic cap run --target=ZA222K834Y android -l --external",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
