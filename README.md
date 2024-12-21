@@ -24,9 +24,9 @@ Prepared and tested on both Android and iOS versions, making sure everything is 
 4. **Build and Test**:
 Full test coverage, deploying only fully-tested builds on both emulators and real devices.
 
-5. **Intuitive Design: Smoothen the text, appealing to the sight, comprehensible, and without any mistakes for a perfect user experience. 
+5. **Intuitive Design**: Smoothen the text, appealing to the sight, comprehensible, and without any mistakes for a perfect user experience. 
 
-6. **Salient Features: 
+6. **Salient Features**: 
 - **Pick-up Scheduling**: This allows for the scheduling of pickups for recyclable material. 
 - **Volunteer Coordination**: Validated volunteers can see the lists of pickups and therefore can coordinate the rosters.
 
