@@ -159,5 +159,3 @@ Here are some visuals showcasing the app's features:
 8. [Building Hybrid Apps with Ionic and Capacitor - Medium](https://medium.com/@example/building-hybrid-apps-with-ionic-and-capacitor-12345)
 9. [Tips for Structuring Angular Projects - Medium](https://medium.com/@example/tips-for-structuring-angular-projects-67890)
 10. [Best Practices for Hybrid Mobile Development - Medium](https://medium.com/@example/best-practices-for-hybrid-mobile-development-11223)
-11. [Geolocation](https://ionicframework.com/docs/native/geolocation)
-12. [Camera](https://ionicframework.com/docs/angular/your-first-app/taking-photos)
