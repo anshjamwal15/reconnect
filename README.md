@@ -74,52 +74,47 @@ Here are some visuals showcasing the app's features:
 
 1. **Home and Navigation**:
    
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/1.jpeg?raw=true)
+    ![alt text](./assets/screenshots/1.jpeg)
 
-3. **Location Access**:
+2. **Location Access**:
 
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/2.jpeg?raw=true)
+    ![alt text](./assets/screenshots/2.jpeg)
   
+3. **Pickup Details**:
 
-4. **Pickup Details**:
-
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/8.jpeg?raw=true)
+    ![alt text](./assets/screenshots/8.jpeg)
   
+4. **Volunteer Details**:
 
-6. **Volunteer Details**:
+    ![alt text](./assets/screenshots/5.jpeg)
 
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/5.jpeg?raw=true)
+5. **Add a Photo**:
 
+    ![alt text](./assets/screenshots/3.jpeg)
 
-8. **List Details**:
+6. **List Details**:
 
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/7.jpeg?raw=true)
+    ![alt text](./assets/screenshots/7.jpeg)
 
-9. **Thank You**:
+7. **Thank You**:
 
-    ![alt text](https://github.com/anshjamwal15/reconnect/blob/main/assets/screenshots/6.jpeg?raw=true)
+    ![alt text](./assets/screenshots/6.jpeg)
 
 ---
 
 ## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/anshjamwal15/reconnect.git
-   cd reconnect
-   ```
-
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-3. **Build the Application**:
+2. **Build the Application**:
    ```bash
    npm run build
    ```
 
-4. **Deploy to Device/Emulator**:
+3. **Deploy to Device/Emulator**:
    - Use the Capacitor CLI commands:
      ```bash
      npx cap add android
@@ -127,11 +122,12 @@ Here are some visuals showcasing the app's features:
      npx cap sync
      ```
 
-5. **Debug on Device/Emulator**:
+4. **Debug on Device/Emulator**:
      ```bash
      npx cap run --target=<YOUR_DEVICE_ID> android -l --external
      npx cap run android --list # use this command to check available device
      ```
+
 
 ---
 
@@ -166,3 +162,5 @@ Here are some visuals showcasing the app's features:
 8. [Building Hybrid Apps with Ionic and Capacitor - Medium](https://medium.com/@example/building-hybrid-apps-with-ionic-and-capacitor-12345)
 9. [Tips for Structuring Angular Projects - Medium](https://medium.com/@example/tips-for-structuring-angular-projects-67890)
 10. [Best Practices for Hybrid Mobile Development - Medium](https://medium.com/@example/best-practices-for-hybrid-mobile-development-11223)
+11. [Geolocation] (https://ionicframework.com/docs/native/geolocation)
+12. [Camera] (https://ionicframework.com/docs/angular/your-first-app/taking-photos)
