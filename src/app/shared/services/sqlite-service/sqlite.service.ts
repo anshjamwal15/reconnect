@@ -128,8 +128,6 @@ export class SQLiteService {
         statement: deleteQuery,
         values: [id],
       });
-
-      console.log(`Profile with ID ${id} deleted successfully.`);
     } catch (err) {
       console.error(`Error deleting profile with ID ${id}:`, err);
     }

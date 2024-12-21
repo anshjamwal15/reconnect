@@ -8,38 +8,38 @@ $text-color: #077575;
 }
 
 .globe {
-    color: #707070;
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 10%;
+    color:#707070;
+    font-size:1.5rem;
+    text-align:center;
     padding-bottom: 10%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
+    padding-top: 10%;
 }
 
 .lets {
     color: $text-color;
-    font-size: 2.5rem;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: bold;
+    text-align:center;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-family:'Inter';
+    font-style:normal;
+    font-weight:bold;
+    font-size:2.5rem;
 }
 
 .sec-text-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .sec-text {
-    font-weight: bold;
+    font-weight:bold;
     width: 60%;
-    font-size: 1.5rem;
-    text-align: center;
+    font-size:1.5rem;
+    text-align:center;
     color: #707070;
 }
 
@@ -57,7 +57,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top:10%;
 }
 
 .main-text-box {
@@ -74,8 +74,8 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding-top: 10%;
+    width:100%;
+    padding-top:10%;
 }
 
 .buttons {
@@ -86,16 +86,16 @@ hr {
 
 .rounded-btn {
     --border-radius: 25px;
-    font-size: 1.2rem;
-    --background: #077575;
+    font-size:1.2rem;
+    --background:#077575;
     text-transform: none;
 }
 
 .back {
     color: $text-color;
-    font-size: 1.5rem;
-    padding: 5%;
-    font-weight: 500;
+    font-size:1.5rem;
+    padding:5%;
+    font-weight:500;
 }
 
 .img-section {
@@ -103,7 +103,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width:100%;
     padding-top: 5%;
 }
 
@@ -112,14 +112,14 @@ hr {
 }
 
 
-@media (min-width: 768px) {
+@media(min-width:768px){
     .globe {
-        font-size: 3rem;
+        font-size:3rem;
     }
 }
 
-@media (min-width: 1024px) {
+@media(min-width:1024px){
     .globe {
-        font-size: 4rem;
+        font-size:4rem;
     }
 }
