@@ -15,8 +15,11 @@
 }
 
 .back-btn ion-back-button{
-    padding: 5px;
-    padding-top: 10px;
+    position: relative;
+    top: 30px; /* Adjust to move the button down */
+    left: 15px;
+    bottom: 10px; /* Optional: Adjust alignment */
+    z-index: 10;
 }
 
 .recordbox h2 {

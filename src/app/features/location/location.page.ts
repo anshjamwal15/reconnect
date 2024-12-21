@@ -14,10 +14,9 @@ export class LocationPage {
   location: { latitude: number; longitude: number } | null = null;
   displayName: string = "";
 
-  constructor(private waitingController: LoadingController, private router: Router, private alertController: AlertController, private platform: Platform) { }
+  constructor(private waitingController: LoadingController, private router: Router, private alertController: AlertController) { }
 
   async fetchLocation() {
-    await this.platform.ready();
     const loading = await this.waitingController.create({
       message: 'Loading...',
       spinner: 'circles',

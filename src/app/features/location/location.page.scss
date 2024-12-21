@@ -18,9 +18,10 @@ $text-color: #077575;
 }
 
 .back-btn ion-back-button {
-    position: absolute;
-    top: 50px; /* Adjust to move the button down */
-    left: 15px; /* Optional: Adjust alignment */
+    position: relative;
+    top: 30px; /* Adjust to move the button down */
+    left: 15px;
+    bottom: 10px; /* Optional: Adjust alignment */
     z-index: 10;
 }
 
