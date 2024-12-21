@@ -17,9 +17,9 @@ $text-color: #077575;
     font-weight: bold;
 }
 
-.back-btn {
-    padding: 5px;
-    padding-top: 10px;
+.back-btn ion-back-button {
+  top: 25px; /* Adjust to move the button down */
+  left: 15px; /* Optional: Adjust alignment */
 }
 
 .lets {
