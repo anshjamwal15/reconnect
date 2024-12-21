@@ -15,4 +15,12 @@ export class AllotedListPage implements OnInit {
   async ngOnInit() {
       this.items = await this.sqliteService.getAllProfiles();
   }
+  
+  getBackRoute(): string {
+    if (window.history.length > 1) {
+      return ''; // Allow navigating back in history stack
+    } else {
+      return '/home'; // Fallback to the home route
+    }
+  }
 }

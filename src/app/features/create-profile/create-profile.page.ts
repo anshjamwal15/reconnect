@@ -45,4 +45,12 @@ export class CreateProfilePage {
     await alert.present();
   }
 
+  getBackRoute(): string {
+    if (window.history.length > 1) {
+      return ''; // Allow navigating back in history stack
+    } else {
+      return '/home'; // Fallback to the home route
+    }
+  }
+
 }
