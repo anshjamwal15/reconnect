@@ -34,7 +34,7 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+// @import "@ionic/angular/css/palettes/dark.system.css";
 
 @media (prefers-color-scheme: dark) {
     :root {
@@ -53,8 +53,7 @@ body.dark {
 }
 
 ion-loading,
-ion-input,
-ion-item {
+ion-input {
     --ion-text-color: #000000;
     --ion-background-color: #ffffff;
     --color: #000000;

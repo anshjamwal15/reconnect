@@ -10,10 +10,9 @@
       No pickups available
     </div>
 
-    <!-- Show the list if items exist -->
     <ion-list *ngIf="items.length > 0">
       <ion-item *ngFor="let i of items">
-        <ion-label class="list-box">
+        <ion-label>
           <h2>{{ i.name }}</h2>
           <p class="ints">{{ i.instruction }}</p>
           <p class="date-text">{{ i.date | date:'short' }}</p>

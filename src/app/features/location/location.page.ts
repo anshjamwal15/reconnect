@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Geolocation } from '@capacitor/geolocation';
-import { AlertController, LoadingController } from '@ionic/angular';
+import { AlertController, LoadingController, Platform } from '@ionic/angular';
 import axios from 'axios';
 
 @Component({
@@ -14,9 +14,10 @@ export class LocationPage {
   location: { latitude: number; longitude: number } | null = null;
   displayName: string = "";
 
-  constructor(private waitingController: LoadingController, private router: Router, private alertController: AlertController) { }
+  constructor(private waitingController: LoadingController, private router: Router, private alertController: AlertController, private platform: Platform) { }
 
   async fetchLocation() {
+    await this.platform.ready();
     const loading = await this.waitingController.create({
       message: 'Loading...',
       spinner: 'circles',
@@ -31,7 +32,7 @@ export class LocationPage {
         await Geolocation.requestPermissions();
         return;
       }
-      const position = await Geolocation.getCurrentPosition({ timeout: 10000 });
+      const position = await Geolocation.getCurrentPosition({ timeout: 10000, enableHighAccuracy: true, maximumAge: 3600});
       this.location = {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
@@ -41,7 +42,7 @@ export class LocationPage {
         `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${this.location.latitude}&lon=${this.location.longitude}`
       );
       this.displayName = response.data.display_name || 'No data';
-
+      console.log("Changed the display name successfully");
       await loading.dismiss();
     } catch (error) {
       
@@ -62,13 +63,7 @@ export class LocationPage {
       message,
       buttons: [
         {
-          text: 'Retry',
-          handler: () => {
-            this.fetchLocation();
-          },
-        },
-        {
-          text: 'Cancel',
+          text: 'Ok',
           role: 'cancel',
         },
       ],
