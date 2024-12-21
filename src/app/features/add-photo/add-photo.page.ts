@@ -28,9 +28,9 @@ export class AddPhotoPage {
 
   getBackRoute(): string {
     if (window.history.length > 1) {
-      return '/create-profile'; // Allow navigating back in history stack
+      return '/create-profile'; 
     } else {
-      return '/home'; // Fallback to the home route
+      return '/home'; 
     }
   }
 }

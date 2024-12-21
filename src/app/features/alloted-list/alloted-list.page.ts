@@ -18,9 +18,9 @@ export class AllotedListPage implements OnInit {
   
   getBackRoute(): string {
     if (window.history.length > 1) {
-      return '/home'; // Allow navigating back in history stack
+      return '/home';
     } else {
-      return '/home'; // Fallback to the home route
+      return '/home';// Fallback to the home route
     }
   }
 }

@@ -47,9 +47,9 @@ export class CreateProfilePage {
 
   getBackRoute(): string {
     if (window.history.length > 1) {
-      return ''; // Allow navigating back in history stack
+      return ''; 
     } else {
-      return '/home'; // Fallback to the home route
+      return '/home'; 
     }
   }
 
