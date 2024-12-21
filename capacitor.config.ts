@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.pro.reconnect.app',
   appName: 'Reconnect',
   webDir: 'www',
   plugins: {
@@ -11,11 +11,12 @@ const config: CapacitorConfig = {
     androidIsEncryption: false,
   },
   SplashScreen: {
-    launchShowDuration: 30000,
+    launchShowDuration: 3000,
     launchAutoHide: true,
-    backgroundColor: "#fffffff",
+    backgroundColor: "#ffffff",
     androidSplashResourceName: "splash",
-    iosSplashResourceName: "Splash",
+    iosSpinnerStyle : "large",
+    //iosSplashResourceName: "Splash",
     androidScaleType: "CENTER_CROP",
     showSpinner: true,
     androidSpinnerStyle: "large",

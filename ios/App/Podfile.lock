@@ -16,6 +16,8 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (6.0.3):
     - Capacitor
+  - CapacitorSplashScreen (6.0.3):
+    - Capacitor
   - CapacitorStatusBar (6.0.2):
     - Capacitor
   - SQLCipher (4.6.1):
@@ -34,6 +36,7 @@ DEPENDENCIES:
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
 
 SPEC REPOS:
@@ -58,6 +61,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/haptics"
   CapacitorKeyboard:
     :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
 
@@ -70,10 +75,11 @@ SPEC CHECKSUMS:
   CapacitorGeolocation: d994ee64ee41909e2089e575c9d3a976007c2812
   CapacitorHaptics: b53409aaca1203f79c6d0eb3ed5de40556339518
   CapacitorKeyboard: 460c6f9ec5e52c84f2742d5ce2e67bbc7ab0ebb0
+  CapacitorSplashScreen: 68893659d77b5f82d753b3a70475082845e3039c
   CapacitorStatusBar: 3b9ac7d0684770522c532d1158a1434512ab1477
   SQLCipher: 77fbe633cd84db04b07876dd50766b4924b57d61
   ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
 
-PODFILE CHECKSUM: 2a161858092bd189e42b9e944b378700ca0beff4
+PODFILE CHECKSUM: 936356a2f7a1e54656d129054da21a32c6eeb762
 
 COCOAPODS: 1.16.2

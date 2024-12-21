@@ -6,7 +6,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SQLiteService } from './shared/services/sqlite-service/sqlite.service';
+import { SplashScreen } from '@capacitor/splash-screen';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +14,21 @@ import { SQLiteService } from './shared/services/sqlite-service/sqlite.service';
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
-export class AppModule {
+export class AppModule implements OnInit {
 
   constructor () {}
+
+  ngOnInit() {
+    this.initializeApp();
+  }
+
+  initializeApp() {
+    SplashScreen.show({
+      autoHide: true,
+    });
+  
+    setTimeout(() => {
+      SplashScreen.hide();
+    }, 3000);
+  };
 }
