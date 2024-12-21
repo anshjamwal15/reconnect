@@ -116,7 +116,6 @@ Here are some visuals showcasing the app's features:
    ```
 
 3. **Deploy to Device/Emulator**:
-   - Use the Capacitor CLI commands:
      ```bash
      npx cap add android
      npx cap add ios
