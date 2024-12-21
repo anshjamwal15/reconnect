@@ -25,7 +25,7 @@ export class SchedulePage implements OnInit {
       try {
         await this.sqliteService.saveProfile(this.profile.name, this.profile.instructions, this.profile.datetime);
         console.log('Profile saved successfully!');
-        this.router.navigate(['/home']);
+        this.router.navigate(['/thank-you-two']);
       } catch (error) {
         console.error('Error saving profile:', error);
       }
