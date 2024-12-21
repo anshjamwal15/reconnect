@@ -13,6 +13,7 @@ Features :
 1. **Integrated plugins:**
 - **Geolocation**: It provides location tracking with very high accuracy. The user is allowed to provide a location from where the volunteer will collect it.
 - **Camera**: Shooting the picture of the volunteer so that one may identify him and make the interaction over the network transparent and secure enough.
+- **DeviceOrientation**: It allows the application to access the orientation and motion of the device of the user.
 
 2. **Platform Compatibility:**
 Prepared and tested on both Android and iOS versions, making sure everything is going great.
@@ -128,9 +129,6 @@ Here are some visuals showcasing the app's features:
      npx cap run android --list # use this command to check available device
      ```
 
-
----
-
 ## Usage
 
 ### Running the Application
@@ -149,7 +147,6 @@ Here are some visuals showcasing the app's features:
   npx cap open ios
   ```
 
----
 
 ## References
 1. [Capacitor Documentation](https://capacitorjs.com/docs/)
@@ -162,5 +159,5 @@ Here are some visuals showcasing the app's features:
 8. [Building Hybrid Apps with Ionic and Capacitor - Medium](https://medium.com/@example/building-hybrid-apps-with-ionic-and-capacitor-12345)
 9. [Tips for Structuring Angular Projects - Medium](https://medium.com/@example/tips-for-structuring-angular-projects-67890)
 10. [Best Practices for Hybrid Mobile Development - Medium](https://medium.com/@example/best-practices-for-hybrid-mobile-development-11223)
-11. [Geolocation] (https://ionicframework.com/docs/native/geolocation)
-12. [Camera] (https://ionicframework.com/docs/angular/your-first-app/taking-photos)
+11. [Geolocation](https://ionicframework.com/docs/native/geolocation)
+12. [Camera](https://ionicframework.com/docs/angular/your-first-app/taking-photos)
